@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "DM Serif Text", serif;
+}
+:root{
+    --x: rgb(114, 13, 13)
+}
+#main{
+    background-image: url('https://img.freepik.com/free-photo/scandinavian-vintage-wood-cabinet-with-chair-by-dark-blue-wall_53876-98164.jpg?t=st=1725278819~exp=1725282419~hmac=5f04ff8305089ebd964d285370b9fc7dfe0f226ed64e8c395dccaee1ae326006&w=826');
+    width: 100%;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#logo{
+    width: 160px;
+    height: 160px;
+    
+}
+ul li{
+    font-size: 22px;
+}
+#BUTTON{
+    background-color:var(--x);
+    color: white;
+    width: 150px;
+    height: 60px;
+
+}
+li i{
+    color: rgb(184, 181, 181);
+}
+#backg{
+    background-color: rgba(0, 0, 0, 0.384);
+    width: 100%;
+    /* height: 100vh; */
+}
+#welcome{
+    color: rgb(231, 228, 228);
+    margin-top: 15%;
+    margin-left: 5%;
+}
+#welcome h3{
+    font-size: 35px;
+}
+#welcome h1{
+    font-size: 120px;
+    letter-spacing: 5px;
+}
+@media(max-width:600px){
+    #welcome h3{
+        font-size: 20px;
+    }
+    #welcome h1{
+        font-size: 50px;
+    }
+}
+#welcome button{
+    border-color: white;
+    color: white;
+}
+#BUTTON:hover{
+    background-color: white;
+    color: var(--x);
+    border-color: var(--x);
+}
+/* @media(max-width:992px){
+    .nav-item i{
+        display: none;
+    }
+/* } 
+/* instead of d-none d-lg-block in i tag we can also use media query */
+#work{
+    background-image: url('https://img.freepik.com/free-photo/abstract-surface-textures-white-concrete-stone-wall_74190-8184.jpg?t=st=1725363348~exp=1725366948~hmac=51fb4d87e7f581a97ce02d30995b23024932f831db43af14bf7d9ca5f8a69fa3&w=1380');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 8%;
+    padding-top: 6%;
+}
+#view1:hover, #view2:hover, #view3:hover,#view4:hover,#viewbutton:hover{
+    background-color:var(--x);
+    color: white;
+    width: 150px;
+    height: 60px;
+}
+#view1, #view2, #view3,#view4,#viewbutton{
+    
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--x);
+    border-color: var(--x);
+    width: 150px;
+    height: 60px;
+
+}
+
+
+#about{
+    background-color: rgb(202, 200, 200);
+    padding: 8%;
+}
+#about h1{
+    color: var(--x);
+}
+#hr{
+    background-color: var(--x);
+    width: 200px;
+    height: 7px;
+}
+#about p{
+    text-align: justify;
+    font-size: 18px;
+}
+#aboutdiv{
+    border: 7px solid var(--x);
+    width: 80%;
+    height: 490px;
+    padding-top: 4%;
+    padding-left: 4%;
+}
+#div1{
+    background-color: rgba(0, 0, 0, 0.452);
+    width: 50%;
+    height: 6rem;
+    color: white;
+}
+#div2,#div3{
+    background-color: rgba(0, 0, 0, 0.452);
+    width: 43%;
+    height: 4rem;
+    color: white;
+}
